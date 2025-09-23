@@ -1,7 +1,15 @@
-body{text-align: center}
+body{text-align: center; background-color: rgb(221, 221, 221)}
 
-h2{color: #5e78da; text-transform: uppercase; font-family: "Papyrus", fantasy;}
-h3{color:#364a94; font-family: "Papyrus", fantasy;}
-p {font-family: "Papyrus", fantasy;}
 
-a{color:#6d84dd; font-style: italic; font-family: "Papyrus", fantasy; }
+h2{color: #515151; text-transform: uppercase; font-family: "Macondo";}
+h3{color:#666666; font-family: "Macondo";}
+p {font-family:"Josefin Sans";}
+
+a{color:#626262; font-style: italic; font-family: "Macondo"; }
+
+.hred {color:#dd6d6d; font-family: "Macondo";}
+.horange {color:#e5a556; font-family: "Macondo";}
+.hgreen {color:#54ac54; font-family: "Macondo";}
+.hblue {color:#6d84dd; font-family: "Macondo";}
+
+.center {margin-right: auto; margin-left: auto}
