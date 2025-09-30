@@ -50,8 +50,8 @@ a {
     box-sizing: border-box;
 }
 .avatar {
-    width: 64px;
-    height: 64px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     float: left;
     margin-right: 12px;
