@@ -1,15 +1,92 @@
-body{text-align: center; background-color: rgb(221, 221, 221)}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 
+body {
+    text-align: center;
+    background-color: #dddddd;
+}
 
-h2{color: #515151; text-transform: uppercase; font-family: "Macondo";}
-h3{color:#666666; font-family: "Macondo";}
-p {font-family:"Josefin Sans";}
+h2 {
+    color: #515151;
+    text-transform: uppercase;
+    font-family: "Macondo";
+    text-align: center;
+}
+h3 {
+    color: #797979;
+    font-family: "Macondo";
+    text-transform: uppercase;
+}
+p {
+    font-family: "Josefin Sans";
+    color: #515151;
+}
 
-a{color:#626262; font-style: italic; font-family: "Macondo"; }
+a {
+    padding: 6px;
+    border: 2px dashed;
+    color: #515151;
+    font-family: "Macondo";
+    background-color: #f1f1f1;
+    border-radius: 8px;
+}
 
-.hred {color:#dd6d6d; font-family: "Macondo";}
-.horange {color:#e5a556; font-family: "Macondo";}
-.hgreen {color:#54ac54; font-family: "Macondo";}
-.hblue {color:#6d84dd; font-family: "Macondo";}
+.banner {
+    background-color: #f1f1f1;
+    width: 800px;
+    margin: auto;
+}
 
-.center {margin-right: auto; margin-left: auto}
+.profile-card {
+    width: 450px;
+    padding: 16px;
+    margin: auto;
+    border: 2px dashed #515151;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+}
+.avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 12px;
+}
+
+.hred {
+    color: #dd6d6d;
+    font-family: "Macondo";
+    background-color: #f1f1f1;
+    width: 800px;
+    margin: auto;
+}
+.horange {
+    color: #e5a556;
+    font-family: "Macondo";
+    background-color: #f1f1f1;
+    width: 800px;
+    margin: auto;
+}
+.hgreen {
+    color: #54ac54;
+    font-family: "Macondo";
+    background-color: #f1f1f1;
+    width: 800px;
+    margin: auto;
+}
+.hblue {
+    color: #6d84dd;
+    font-family: "Macondo";
+    background-color: #f1f1f1;
+    width: 800px;
+    margin: auto;
+}
+
+.center {
+    margin-right: auto;
+    margin-left: auto;
+}
