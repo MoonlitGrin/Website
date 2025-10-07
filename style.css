@@ -41,6 +41,16 @@ table {
     margin: auto;
 }
 
+.links {
+    text-align: center;
+    width: 100%;
+}
+.navbar {
+    display: inline-block;
+    margin: 5px;
+    margin-bottom: 20px
+}
+
 .banner {
     background-color: #f1f1f1;
     width: 800px;
