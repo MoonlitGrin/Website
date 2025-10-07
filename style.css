@@ -10,11 +10,11 @@ body {
 }
 
 h2 {
+    max-width: fit-content;
     color: #515151;
     text-transform: uppercase;
     font-family: "Macondo";
     text-align: center;
-    max-width: fit-content;
 }
 h3 {
     color: #797979;
@@ -38,18 +38,18 @@ a {
 }
 
 table {
-    max-width: fit-content;
+    width: 800px;
     margin: auto;
 }
 
 .banner {
     background-color: #f1f1f1;
-    max-width: fit-content;
+    width: 800px;
     margin: auto;
 }
 
 .profile-card {
-    max-width: fit-content;
+    max-width: 450px;
     padding: 16px;
     margin: auto;
     border: 2px dashed #515151;
@@ -63,10 +63,6 @@ table {
     border-radius: 50%;
     float: left;
     margin-right: 12px;
-}
-
-iframe {
-    max-width: fit-content;
 }
 
 .hred {
