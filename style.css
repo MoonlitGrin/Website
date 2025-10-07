@@ -32,12 +32,13 @@ a {
     font-family: "Macondo";
     background-color: #f1f1f1;
     border-radius: 8px;
+    width: 800px;
+    margin: auto;
 }
 
 table {
     width: 800px;
     margin: auto;
-    
 }
 
 .banner {
