@@ -41,16 +41,6 @@ table {
     margin: auto;
 }
 
-.links {
-    text-align: center;
-    width: 100%;
-}
-.navbar {
-    display: inline-block;
-    margin: 5px;
-    margin-bottom: 20px
-}
-
 .banner {
     background-color: #f1f1f1;
     width: 800px;
@@ -106,4 +96,33 @@ table {
 .center {
     margin-right: auto;
     margin-left: auto;
+}
+
+.links {
+    text-align: center;
+    width: 100%;
+}
+.navbar {
+    display: inline-block;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+/* phone */
+@media (min-width: 100px) .navbar {
+    width: 15%;
+}
+
+/* tablet */
+@media (min-width: 800px) .navbar {
+    display: inline-block;
+    width: 15%;
+    margin: -1px;
+}
+
+/* desktop */
+@media (min-width: 1200px) .navbar {
+    display: inline-block;
+    width: 100px;
+    margin: 5px;
 }
