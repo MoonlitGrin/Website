@@ -94,6 +94,8 @@ table {
     margin: auto;
 }
 
+
+
 .center {
     margin-right: auto;
     margin-left: auto;
@@ -112,6 +114,7 @@ table {
 /* phone */
 @media (min-width: 100px) .navbar {
     width: 15%;
+    max-width: 100%;
 }
 
 /* tablet */
