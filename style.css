@@ -94,7 +94,9 @@ table {
     margin: auto;
 }
 
-
+td {
+    max-width=100%
+}
 
 .center {
     margin-right: auto;
