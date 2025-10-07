@@ -14,6 +14,7 @@ h2 {
     text-transform: uppercase;
     font-family: "Macondo";
     text-align: center;
+    max-width: fit-content;
 }
 h3 {
     color: #797979;
@@ -37,18 +38,18 @@ a {
 }
 
 table {
-    width: 800px;
+    max-width: fit-content;
     margin: auto;
 }
 
 .banner {
     background-color: #f1f1f1;
-    width: 800px;
+    max-width: fit-content;
     margin: auto;
 }
 
 .profile-card {
-    max-width: 450px;
+    max-width: fit-content;
     padding: 16px;
     margin: auto;
     border: 2px dashed #515151;
@@ -62,6 +63,10 @@ table {
     border-radius: 50%;
     float: left;
     margin-right: 12px;
+}
+
+iframe {
+    max-width: fit-content;
 }
 
 .hred {
