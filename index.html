@@ -1,22 +1,42 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <link rel="icon" type="image/png" href="images/favicon.png" />
         <meta charset="UTF-8" />
         <title>Castle Crashers Fan-Wiki</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Macondo&display=swap"
+            rel="stylesheet" />
+
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <center>
-            <img src="images/castlecrasherbanner.jpg" width="800" alt="Banner of Castle Crashers" />
-            <h1>Castle Crashers Fan-Wiki</h1>
-            <p>A website and player-made guide to <strong>Castle Crashers</strong>.</p>
-            <p>There are a lot of features and aspects to the game:</p>
-            <ul>
-                <li></li>
-            </ul>
-            <p>
-                <a href="characters.html">Characters & Magic</a> | <a href="levels.html">Levels & Secrets</a> |
-                <a href="enemies.html">Enemies & Stats</a> | <a href="bosses.html">Mini-Bosses & Bosses</a>
-            </p>
+        <img src="images/castlecrasherbanner.jpg" width="800" alt="Banner of Castle Crashers" />
+        <div>
+            <h2 class="banner">Castle Crashers Fan-page</h2>
+            <h3>A website and player-made guide to <strong>Castle Crashers</strong>.</h3>
+        </div>
+
+        <p>There are a lot of features and aspects to the game:</p>
+
+        <div class="links">
+            <div class="navbar"><a href="characters.html">Characters & Magic</a></div>
+            <div class="navbar"><a href="pets.html">Animal Orbs</a></div>
+            <div class="navbar"><a href="enemies.html">Enemies</a></div>
+            <div class="navbar"><a href="bosses.html">Mini-Bosses & Bosses</a></div>
+            <div class="navbar"><a href="index.html">Home Page </a></div>
+        </div>
+
+        <div>
             <iframe
                 width="800"
                 height="450"
@@ -25,7 +45,25 @@
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen></iframe>
-        </center>
+                allowfullscreen>
+            </iframe>
+        </div>
+        <br />
+        <div class="profile-card">
+            <img class="avatar" src="images/profileimage.jpg" alt="Avatar" />
+            <h2>MoonLitGrin</h2>
+            <p>
+                The author of this website, and huge fan of Castle Crashers. I enjoy playing games in my free-time,
+                drawing and writing, and I hope to one day develop my own game.
+            </p>
+        </div>
+        <br />
+        <div>
+            <form>
+                <label for="character">What's your favourite playable Character?</label>
+                <p><input type="text" placeholder="Type here" id="character" /></p>
+                <input type="submit" value="Submit" />
+            </form>
+        </div>
     </body>
 </html>

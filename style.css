@@ -1,0 +1,144 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: #dddddd;
+}
+
+h2 {
+    max-width: fit-content;
+    color: #515151;
+    text-transform: uppercase;
+    font-family: "Macondo";
+    text-align: center;
+}
+h3 {
+    color: #797979;
+    font-family: "Macondo";
+    text-transform: uppercase;
+}
+p {
+    font-family: "Josefin Sans";
+    color: #515151;
+}
+
+a {
+    padding: 6px;
+    border: 2px dashed;
+    color: #515151;
+    font-family: "Macondo";
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    width: 800px;
+    margin: auto;
+}
+
+table {
+    max-width:fit-content;
+    margin: auto;
+}
+
+.banner {
+    background-color: #f1f1f1;
+    width: 800px;
+    margin: auto;
+}
+
+.profile-card {
+    max-width: 450px;
+    padding: 16px;
+    margin: auto;
+    border: 2px dashed #515151;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+}
+.avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 12px;
+}
+
+.hred {
+    color: #dd6d6d;
+    font-family: "Macondo";
+    background-color: #f1f1f1;
+    width: 800px;
+    margin: auto;
+}
+.horange {
+    color: #e5a556;
+    font-family: "Macondo";
+    background-color: #f1f1f1;
+    width: 800px;
+    margin: auto;
+}
+.hgreen {
+    color: #54ac54;
+    font-family: "Macondo";
+    background-color: #f1f1f1;
+    width: 800px;
+    margin: auto;
+}
+.hblue {
+    color: #6d84dd;
+    font-family: "Macondo";
+    background-color: #f1f1f1;
+    width: 800px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    height:auto;
+}
+
+iframe {
+    max-width:100%;
+    height:auto;
+}
+
+td {
+    max-width:fit-content;
+}
+
+.center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.links {
+    text-align: center;
+    width: 100%;
+}
+.navbar {
+    display: inline-block;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+/* phone */
+@media (min-width: 100px) .navbar {
+    width: 15%;
+    max-width: 100%;
+}
+
+/* tablet */
+@media (min-width: 800px) .navbar {
+    display: inline-block;
+    width: 15%;
+    margin: -1px;
+}
+
+/* desktop */
+@media (min-width: 1200px) .navbar {
+    display: inline-block;
+    width: 100px;
+    margin: 5px;
+}
